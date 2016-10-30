@@ -1,6 +1,6 @@
 var superagent = require('superagent')
 
-var Porno = module.exports = {}; // fun time
+var Porno = module.exports = {}; 
 
   Porno.apiRequest = (path, options = {}) => {
    let params = "";
