@@ -13,5 +13,3 @@ search: 'Random video'
 console.log(response.result);
 });
 ```
-Parameters:
-![params](http://i.imgur.com/xwnDzzhl.jpg)
