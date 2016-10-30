@@ -4,9 +4,14 @@
 ## Main Functions
 
 ### videoSearch
+Example:
 ```js
 var porno = require('porno');
 porno.videoSearch({
 search: 'Random video'
+}).then(response => {
+console.log(response.result);
 });
 ```
+Parameters:
+![params](http://i.imgur.com/xwnDzzhl.jpg)
