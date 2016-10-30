@@ -11,5 +11,5 @@ porno.videoSearch({
 search: 'Random video'
 }).then(response => {
 console.log(response.result);
-});
+}).catch(console.log)
 ```
