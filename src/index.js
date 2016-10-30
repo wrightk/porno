@@ -6,7 +6,7 @@ var Porno = module.exports = {};
    let params = "";
    for(let opt in options){
   params += `&${opt}=${options[opt]}`
- };
+     };
     return new Promise((resolve, reject) => {
       superagent.get(`http://api.porn.com/${path}${params}`)
       .end((err, res) => {
