@@ -1,0 +1,21 @@
+{
+  "name": "porno",
+  "version": "1.0.2",
+  "main": "src/index.js",
+  "dependencies": {
+    "superagent": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wkev/porno.git"
+  },
+  "keywords": [
+    "porn",
+    "memes",
+    "porno",
+    "nudity",
+    "18+"
+  ],
+  "author": "Kev",
+  "license": "MIT"
+}
