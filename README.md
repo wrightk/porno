@@ -4,7 +4,7 @@
 ## Main Functions
 
 ### videoSearch
-```
+```js
 var porno = require('porno');
 porno.videoSearch({
 search: 'Random video'
