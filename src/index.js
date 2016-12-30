@@ -3,12 +3,12 @@ var superagent = require('superagent')
 var Porno = module.exports = {}; 
 
   Porno.apiRequest = (path, options = {}) => {
-   let params = "";
-   for(let opt in options){
-  params += `&${opt}=${options[opt]}`
-     };
+    let params = "";
+    for(let opt in options) {
+      params += `&${opt}=${options[opt]}`
+    };
     return new Promise((resolve, reject) => {
-      superagent.get(`http://api.porn.com/${path}${params}`)
+      superagent.get(`http://api.porn.com/${path}?${params}`)
       .end((err, res) => {
         if (err) return reject(err);
         return resolve(res.body);
