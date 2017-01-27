@@ -1,0 +1,15 @@
+{
+  "name": "porno",
+  "version": "2.1.0",
+  "description": "A NodeJS Porn API Wrapper",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wkev/porno.git"
+  },
+  "author": "Kev",
+  "bugs": { 
+    "url": "https://github.com/wkev/porno/issues"
+  },
+  "homepage": "https://github.com/wkev/porno#readme"
+}
